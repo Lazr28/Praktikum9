@@ -17,9 +17,8 @@ while True:
 
     if (tambah == "t"):
         break
-    elif (tambah != "y" and tambah != "t"):
-        print("Isi yang benar!")
-        tambah = input("Tambah data (y/t) : ")
+    elif (tambah == "y" ):
+
         continue
 
 print("===================================================================================")
